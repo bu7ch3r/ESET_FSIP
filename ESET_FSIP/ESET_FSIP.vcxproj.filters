@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ESET_FSIP.cpp" />
+    <ClCompile Include="framework\MemoryMapped.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="framework\Active.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\tsqueue.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="framework\MemoryMapped.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{6278b068-d073-4cc9-9ce4-c8699a2cdb4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
