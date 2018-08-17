@@ -1,4 +1,4 @@
-# Project Title
+# ESET_FSIP
 
 This app searches for a text in all filese from a give path
 
