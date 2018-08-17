@@ -62,6 +62,8 @@ public:
   uint64_t size() const;
   /// get number of actually mapped bytes
   size_t   mappedSize() const;
+  // get filename
+  std::string fileName() const;
 
   /// replace mapping by a new one of the same file, offset MUST be a multiple of the page size
   bool remap(uint64_t offset, size_t mappedBytes);

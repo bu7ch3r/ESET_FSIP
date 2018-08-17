@@ -228,6 +228,12 @@ size_t MemoryMapped::mappedSize() const
   return _mappedBytes;
 }
 
+//get filename
+std::string MemoryMapped::fileName() const
+{
+	return _filename;
+}
+
 
 /// replace mapping by a new one of the same file, offset MUST be a multiple of the page size
 bool MemoryMapped::remap(uint64_t offset, size_t mappedBytes)
