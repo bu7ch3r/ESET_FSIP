@@ -20,12 +20,13 @@ In practice you should clone the repo and load the solution in VS 2017, copile i
 
 ### Prerequisites
 
+x64 target compiler and x64 machines
 You shouldn't need to install anything before. Just compile and run the exe. Be sure to provide the proper params
 
 ## Tests made
 
 <br>I tested the app on win10 x64 - x64 version - so at least this should work fine
-<br>For win32 I don't map more than 1GB of large files
+<br>The app doesn't compile on x86 - I might update the code in the near future and focus on x86 issues :(
 <br>I tested this on c:/windows without any crashes and with good results
 <br>The maximum file size I tested it was 2.7GB and contained only one line with the needle at the end
 
